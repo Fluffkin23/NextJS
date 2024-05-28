@@ -1,4 +1,5 @@
 'use client';
+import Bounded from "@/components/Bounded";
 import { Content, KeyTextField } from "@prismicio/client";
 import { SliceComponentProps } from "@prismicio/react";
 import gsap from "gsap";
@@ -75,7 +76,7 @@ const renderLetters = (name:KeyTextField, key:string) =>{
 }
 
   return (
-    <section
+    <Bounded
       data-slice-type={slice.slice_type}
       data-slice-variation={slice.variation}
       ref = {component}
@@ -99,7 +100,7 @@ const renderLetters = (name:KeyTextField, key:string) =>{
         </div>
       </div>
 
-    </section>
+    </Bounded>
   );
 };
 
