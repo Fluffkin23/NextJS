@@ -1,6 +1,9 @@
 {
   "dependencies": {
+    "@react-three/fiber": "^8.16.6",
+    "@types/three": "^0.164.1",
     "clsx": "^2.1.1",
-    "gsap": "^3.12.5"
+    "gsap": "^3.12.5",
+    "three": "^0.164.1"
   }
 }
